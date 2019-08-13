@@ -23,17 +23,26 @@
       <hr class="my-2" />
       <p class="helper-text text-center">Choose Honestly</p>
     </div>
+    <form>
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h4>You are more than willing to help anyone in need.</h4>
-          <form action="/api/friends", method="POST">
-            <select>
-              <option>1(Strongly Disagree)</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5(Strongly Agree)</option>
+            <div class="row">
+                <div class="col-md-12">
+                  <h4>Your Name:</h4>
+                  <input type ="text" id="name">
+                  <hr>
+                  </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h4>You are more than willing to help anyone in need.</h4>
+            <select id="q1">
+              <option value="1">1(Strongly Disagree)</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5(Strongly Agree)</option>
             </select>
         </div>
       </div>
@@ -41,132 +50,159 @@
       <div class="row">
         <div class="col-md-12">
           <h4>You are more likely to defend than to run in and fight.</h4>
-            <select>
-              <option>1(Strongly Disagree)</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5(Strongly Agree)</option>
+            <select id="q2">
+              <option value="1">1(Strongly Disagree)</option>
+              <option value="1">2</option>
+              <option value="1">3</option>
+              <option value="1">4</option>
+              <option value="1">5(Strongly Agree)</option>
             </select>
+          </div>
         </div>
-      </div>
       <p></p>
       <div class="row">
         <div class="col-md-12">
+          
           <h4>Brains over brawn is your philosophy.</h4>
-            <select>
-              <option>1(Strongly Disagree)</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5(Strongly Agree)</option>
+            <select id="q3">
+              <option value="1">1(Strongly Disagree)</option>
+              <option value="1">2</option>
+              <option value="1">3</option>
+              <option value="1">4</option>
+              <option value="1">5(Strongly Agree)</option>
             </select>
         </div>
       </div>
       <p></p>
       <div class="row">
         <div class="col-md-12">
+        
           <h4>Brawns over brains because you hit harder.</h4>
-            <select>
-              <option>1(Strongly Disagree)</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5(Strongly Agree)</option>
+            <select id="q4">
+                <option value="1">1(Strongly Disagree)</option>
+                <option value="1">2</option>
+                <option value="1">3</option>
+                <option value="1">4</option>
+                <option value="1">5(Strongly Agree)</option>
             </select>
         </div>
       </div>
       <p></p>
       <div class="row">
         <div class="col-md-12">
+          
           <h4>You are an all out attacker.</h4>
-            <select>
-              <option>1(Strongly Disagree)</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5(Strongly Agree)</option>
+            <select id="q5">
+                <option value="1">1(Strongly Disagree)</option>
+                <option value="1">2</option>
+                <option value="1">3</option>
+                <option value="1">4</option>
+                <option value="1">5(Strongly Agree)</option>
             </select>
         </div>
       </div>
       <p></p>
       <div class="row">
         <div class="col-md-12">
+        
           <h4>Speed is better than any other stat.</h4>
-            <select>
-              <option>1(Strongly Disagree)</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5(Strongly Agree)</option>
+            <select id="q6">
+                <option value="1">1(Strongly Disagree)</option>
+                <option value="1">2</option>
+                <option value="1">3</option>
+                <option value="1">4</option>
+                <option value="1">5(Strongly Agree)</option>
             </select>
         </div>
       </div>
       <p></p>
       <div class="row">
         <div class="col-md-12">
+         
           <h4>You like cute animals.</h4>
-            <select>
-              <option>1(Strongly Disagree)</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5(Strongly Agree)</option>
+            <select id="q7">
+                <option value="1">1(Strongly Disagree)</option>
+                <option value="1">2</option>
+                <option value="1">3</option>
+                <option value="1">4</option>
+                <option value="1">5(Strongly Agree)</option>
             </select>
         </div>
       </div>
       <p></p>
       <div class="row">
         <div class="col-md-12">
+          
           <h4>
             You love the animals that look like they can fight when they need.
           </h4>
-            <select>
-              <option>1(Strongly Disagree)</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5(Strongly Agree)</option>
+            <select id="q8">
+                <option value="1">1(Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5(Strongly Agree)</option>
             </select>
         </div>
       </div>
       <p></p>
       <div class="row">
         <div class="col-md-12">
+         
           <h4>Two legs are greater than 4.</h4>
-            <select>
-              <option>1(Strongly Disagree)</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5(Strongly Agree)</option>
+            <select id="q9">
+                <option value="1">1(Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5(Strongly Agree)</option>
             </select>
         </div>
       </div>
       <p></p>
       <div class="row">
         <div class="col-md-12">
+          
           <h4>Small is better than large animals.</h4>
-            <select>
-              <option>1(Strongly Disagree)</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5(Strongly Agree)</option>
+            <select id="q10">
+                <option value= "1">1(Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5(Strongly Agree)</option>
             </select>
           </form>
         </div>
       </div>
       <hr></hr>
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <button type="submit" class="btn btn-primary" id="submitBtn">Submit</button>
       </div>
+      <div class="modal fade" id= "finalCharacterModal" tabindex="-1" role="dialog">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Your Partner is:</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <h2 id="finalCharacter"></h2>
+                <img style="width:200px;height:200px" id="finalCharacterPhoto"></img>
+              </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
     <!-- Optional JavaScript -->
+</script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
       integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
@@ -179,3 +215,42 @@
     ></script>
   </body>
 </html>
+<script type="text/javascript">
+    $("#submitBtn").on("click", function(event) {
+      event.preventDefault();
+  
+      var valid = true;
+      if($("#name").val() === ""){
+          valid = false;
+      } else if ($("#q1").val() === "empty" || $("#q2").val() === "empty" || $("#q3").val() === "empty" || $("#q4").val() === "empty" || $("#q5").val() === "empty" || $("#q6").val() === "empty" || $("#q7").val() === "empty" || $("#q8").val() === "empty" || $("#q9").val() === "empty" || $("#q10").val() === "empty") {
+          valid = false;
+      }
+      if(valid === true) {
+          var newUser = {
+              name: $("#name").val().trim(),
+              scores: [
+                  $("#q1").val(),
+                  $("#q2").val(),
+                  $("#q3").val(),
+                  $("#q4").val(),
+                  $("#q5").val(),
+                  $("#q6").val(),
+                  $("#q7").val(),
+                  $("#q8").val(),
+                  $("#q9").val(),
+                  $("#q10").val()
+              ]
+          };
+          var currentURL = window.location.origin;
+          
+          $.post(currentURL + "/api/friends", newUser, function(data) {
+              $("#finalCharacter").html(data.matchName);
+              $("#finalCharacterPhoto").attr("src", data.matchImage,);
+              $("#finalCharacterModal").modal("toggle");
+          });
+      } else {
+          // If a required field is missing, show alert
+          alert("Survey is incomplete!");
+      }
+  });
+  </script>
